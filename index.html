@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pramoth Raj N S - Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        body {
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        nav {
+            background: #34495e;
+            padding: 1rem 0;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            flex-wrap: wrap;
+        }
+        nav ul li {
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+        section {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: white;
+            border-radius: 8px;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #2c3e50;
+            display: block;
+            margin: 0 auto 1rem;
+        }
+        .resume-btn {
+            display: inline-block;
+            background: #27ae60;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 1rem;
+        }
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+        .skill {
+            background: #e0e0e0;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pramoth Raj N S</h1>
+        <p>BSc Computer Science Student</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#internship">Internship</a></li>
+            <li><a href="#languages">Languages</a></li>
+        </ul>
+    </nav>
+    
+    <main class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="profile.jpg" alt="Pramoth Raj" class="profile-img">
+            <p>Computer Science student with experience in Python programming through academic projects and internship.</p>
+        </section>
+        
+        <section id="education">
+            <h2>Education</h2>
+            <p><strong>S A College Of Arts And Sciences</strong><br>
+            BSc Computer Science (Currently Pursuing)</p>
+            <p><strong>Nazareth Matriculation Higher Secondary School</strong><br>
+            70%</p>
+        </section>
+        
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <span class="skill">Python</span>
+                <span class="skill">HTML</span>
+                <span class="skill">CSS</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">Data Structures</span>
+                <span class="skill">Algorithms</span>
+                <span class="skill">Problem Solving</span>
+                <span class="skill">Git</span>
+                <span class="skill">SQL</span>
+                <span class="skill">OOP Concepts</span>
+            </div>
+        </section>
+        
+        <section id="internship">
+            <h2>Internship</h2>
+            <p><strong>CodeAlpha</strong><br>
+            Python Programming Intern</p>
+        </section>
+        
+        <section id="languages">
+            <h2>Languages</h2>
+            <p>Tamil (Native)<br>
+            English (Fluent)</p>
+        </section>
+        
+        <div style="text-align: center;">
+            <a href="resume.pdf" class="resume-btn" download>Download Resume</a>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; <script>document.write(new Date().getFullYear())</script> Pramoth Raj N S</p>
+    </footer>
+</body>
+</html>
